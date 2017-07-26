@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>421481640136-9rtjf3v54mre418cl6e1vt2c827m0lop.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.421481640136-9rtjf3v54mre418cl6e1vt2c827m0lop</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAGuFdG8iGeh5N5VbuXuGJRxQiH4rR4u5c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>421481640136</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Rruais.eventPlanner</string>
+	<key>PROJECT_ID</key>
+	<string>eventplanner-abd32</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eventplanner-abd32.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:421481640136:ios:11c24ce94992ec6f</string>
+	<key>DATABASE_URL</key>
+	<string>https://eventplanner-abd32.firebaseio.com</string>
+</dict>
+</plist>

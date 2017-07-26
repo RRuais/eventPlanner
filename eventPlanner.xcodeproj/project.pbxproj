@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55A5780695383EA4689EDB1C /* Pods_eventPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5AE1EFDE2F85C7EDCEC150 /* Pods_eventPlanner.framework */; };
 		84C4F6881F2827DE0057EFB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C4F6871F2827DE0057EFB2 /* AppDelegate.swift */; };
 		84C4F68A1F2827DE0057EFB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C4F6891F2827DE0057EFB2 /* ViewController.swift */; };
 		84C4F68D1F2827DE0057EFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C4F68B1F2827DE0057EFB2 /* Main.storyboard */; };
 		84C4F68F1F2827DE0057EFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C4F68E1F2827DE0057EFB2 /* Assets.xcassets */; };
 		84C4F6921F2827DE0057EFB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C4F6901F2827DE0057EFB2 /* LaunchScreen.storyboard */; };
+		84C4F69A1F282DB50057EFB2 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C4F6991F282DB50057EFB2 /* AddEventViewController.swift */; };
+		84C4F69C1F28306A0057EFB2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84C4F69B1F28306A0057EFB2 /* GoogleService-Info.plist */; };
+		84D5D21F1F285A7E00F4C78D /* EventDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D21E1F285A7E00F4C78D /* EventDatabase.swift */; };
+		84D5D2211F28FB2900F4C78D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D2201F28FB2900F4C78D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0170F89B5F12507E54355672 /* Pods-eventPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eventPlanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-eventPlanner/Pods-eventPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		0E5AE1EFDE2F85C7EDCEC150 /* Pods_eventPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eventPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C4F6841F2827DE0057EFB2 /* eventPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eventPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C4F6871F2827DE0057EFB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C4F6891F2827DE0057EFB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		84C4F68E1F2827DE0057EFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C4F6911F2827DE0057EFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C4F6931F2827DE0057EFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C4F6991F282DB50057EFB2 /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		84C4F69B1F28306A0057EFB2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84D5D21E1F285A7E00F4C78D /* EventDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDatabase.swift; sourceTree = "<group>"; };
+		84D5D2201F28FB2900F4C78D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DC04C8E528BEC8C0DC097209 /* Pods-eventPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eventPlanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eventPlanner/Pods-eventPlanner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A5780695383EA4689EDB1C /* Pods_eventPlanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34ECC02629523F4ED9F92521 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E5AE1EFDE2F85C7EDCEC150 /* Pods_eventPlanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		608BC314EB3F20D2DF991E58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC04C8E528BEC8C0DC097209 /* Pods-eventPlanner.debug.xcconfig */,
+				0170F89B5F12507E54355672 /* Pods-eventPlanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84C4F67B1F2827DE0057EFB2 = {
 			isa = PBXGroup;
 			children = (
 				84C4F6861F2827DE0057EFB2 /* eventPlanner */,
 				84C4F6851F2827DE0057EFB2 /* Products */,
+				608BC314EB3F20D2DF991E58 /* Pods */,
+				34ECC02629523F4ED9F92521 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +88,14 @@
 			children = (
 				84C4F6871F2827DE0057EFB2 /* AppDelegate.swift */,
 				84C4F6891F2827DE0057EFB2 /* ViewController.swift */,
+				84C4F6991F282DB50057EFB2 /* AddEventViewController.swift */,
+				84D5D21E1F285A7E00F4C78D /* EventDatabase.swift */,
+				84D5D2201F28FB2900F4C78D /* DetailViewController.swift */,
 				84C4F68B1F2827DE0057EFB2 /* Main.storyboard */,
 				84C4F68E1F2827DE0057EFB2 /* Assets.xcassets */,
 				84C4F6901F2827DE0057EFB2 /* LaunchScreen.storyboard */,
 				84C4F6931F2827DE0057EFB2 /* Info.plist */,
+				84C4F69B1F28306A0057EFB2 /* GoogleService-Info.plist */,
 			);
 			path = eventPlanner;
 			sourceTree = "<group>";
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C4F6961F2827DE0057EFB2 /* Build configuration list for PBXNativeTarget "eventPlanner" */;
 			buildPhases = (
+				BAD223A217310E9484C42C86 /* [CP] Check Pods Manifest.lock */,
 				84C4F6801F2827DE0057EFB2 /* Sources */,
 				84C4F6811F2827DE0057EFB2 /* Frameworks */,
 				84C4F6821F2827DE0057EFB2 /* Resources */,
+				54BAE787E45CEFFE48588D66 /* [CP] Embed Pods Frameworks */,
+				D420CC87D1F215F8CB44954B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C4F6921F2827DE0057EFB2 /* LaunchScreen.storyboard in Resources */,
+				84C4F69C1F28306A0057EFB2 /* GoogleService-Info.plist in Resources */,
 				84C4F68F1F2827DE0057EFB2 /* Assets.xcassets in Resources */,
 				84C4F68D1F2827DE0057EFB2 /* Main.storyboard in Resources */,
 			);
@@ -132,12 +172,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54BAE787E45CEFFE48588D66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eventPlanner/Pods-eventPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAD223A217310E9484C42C86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D420CC87D1F215F8CB44954B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eventPlanner/Pods-eventPlanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84C4F6801F2827DE0057EFB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84C4F68A1F2827DE0057EFB2 /* ViewController.swift in Sources */,
+				84D5D21F1F285A7E00F4C78D /* EventDatabase.swift in Sources */,
+				84C4F69A1F282DB50057EFB2 /* AddEventViewController.swift in Sources */,
+				84D5D2211F28FB2900F4C78D /* DetailViewController.swift in Sources */,
 				84C4F6881F2827DE0057EFB2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +350,7 @@
 		};
 		84C4F6971F2827DE0057EFB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC04C8E528BEC8C0DC097209 /* Pods-eventPlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5UXG4M82GX;
@@ -272,6 +364,7 @@
 		};
 		84C4F6981F2827DE0057EFB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0170F89B5F12507E54355672 /* Pods-eventPlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5UXG4M82GX;
@@ -302,6 +395,7 @@
 				84C4F6981F2827DE0057EFB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
